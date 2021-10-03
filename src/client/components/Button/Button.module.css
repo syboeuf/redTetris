@@ -1,0 +1,3 @@
+.button {
+  @apply h-14 text-white font-bold block rounded-lg px-6 bg-black bg-opacity-10 hover:bg-opacity-25 transition duration-300
+}

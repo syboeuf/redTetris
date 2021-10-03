@@ -1,0 +1,23 @@
+.container {
+  @apply relative w-full h-full outline-none
+}
+
+.subcontainer {
+  @apply flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+}
+
+.leftPane {
+  @apply block mr-5
+}
+
+.rightPane {
+  @apply mt-0 ml-5 w-60
+}
+
+.startGame {
+  @apply bg-indigo-600 hover:bg-indigo-800 text-white p-5 mt-5 rounded-lg transition duration-300 w-full
+}
+
+.avatars {
+  @apply block flex py-5
+}

@@ -1,0 +1,39 @@
+.roomCard {
+  @apply relative bg-black bg-opacity-10 rounded-lg text-white h-36 p-10 mb-6 cursor-pointer
+}
+
+.roomCard__inProgress {
+  @apply opacity-30
+}
+
+.overlay {
+  @apply group absolute w-full h-full bg-black bg-opacity-50 rounded-lg left-0 top-0 font-bold text-xl z-10 opacity-0 hover:opacity-100 transition duration-300
+}
+
+.overlay_container {
+  @apply relative w-full h-full
+}
+
+.overlay_text {
+  @apply absolute w-full text-center top-1/2 transform -translate-y-1/2
+}
+
+.container {
+  @apply flex flex-col
+}
+
+.top {
+  @apply flex justify-between
+}
+
+.title {
+  @apply font-bold text-2xl
+}
+
+.avatars {
+  @apply flex
+}
+
+.gamemode {
+  @apply font-light
+}

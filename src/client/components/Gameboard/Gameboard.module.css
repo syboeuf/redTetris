@@ -1,0 +1,7 @@
+.gameboard {
+  @apply grid grid-rows-gameboard grid-cols-gameboard bg-black bg-opacity-20 rounded-lg
+}
+
+.username {
+  @apply table font-bold text-white mx-auto mt-4 text-xs
+}

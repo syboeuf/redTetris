@@ -1,0 +1,35 @@
+.container {
+  @apply lg:flex h-full pt-10 lg:pt-0 divide-y lg:divide-y-0 lg:divide-x divide-gray-700
+}
+
+.rooms {
+  @apply flex flex-col h-full lg:w-3/5 mb-5 lg:mb-0 lg:p-14 p-5 lg:pt-20 border-gray-800
+}
+
+.rooms_head {
+  @apply lg:flex justify-between
+}
+
+.highscores {
+  @apply flex flex-col h-full lg:w-2/5 lg:p-14 p-5 lg:pt-20
+}
+
+.title {
+  @apply font-bold text-3xl text-white mb-5
+}
+
+.actions {
+  @apply flex lg:ml-5
+}
+
+.list {
+  @apply mt-10 overflow-y-scroll
+}
+
+.noRooms {
+  @apply w-full text-center text-white mt-16
+}
+
+.noRooms_text {
+  @apply text-lg text-gray-300 font-light
+}

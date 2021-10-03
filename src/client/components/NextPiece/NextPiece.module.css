@@ -1,0 +1,11 @@
+.nextPiece {
+  @apply bg-black bg-opacity-20 rounded-lg p-5
+}
+
+.nextPiece_row {
+  @apply flex
+}
+
+.nextPiece_cell {
+  @apply flex-1
+}

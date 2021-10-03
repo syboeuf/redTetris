@@ -1,0 +1,7 @@
+.layout {
+  @apply relative w-screen h-screen bg-primary overflow-y-scroll
+}
+
+.layout__room {
+  background-image: url('/pattern.svg');
+}
